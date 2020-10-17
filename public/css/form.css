@@ -56,7 +56,6 @@ fieldset legend {
   border-radius: 2rem;
 
   color: #5c8599;
-  outline: none;
 }
 
 .input-block input {
@@ -93,6 +92,10 @@ fieldset legend {
 
 .new-upload {
   position: relative;
+}
+
+.new-upload + .new-upload {
+  margin-top: 2.4rem;
 }
 
 .new-upload span {
