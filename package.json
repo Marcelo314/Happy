@@ -4,7 +4,7 @@
   "description": "<div align=\"center\">\r   <img alt=\"Happy\" src=\"https://i.imgur.com/fzfOWUZ.png\" width=\"80%\">\r </div>\r aplicação web desenvolvida durante a Next Level Week/Rocketseat",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon src/server.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/Marcelo314/Happy/issues"
   },
-  "homepage": "https://github.com/Marcelo314/Happy#readme"
+  "homepage": "https://github.com/Marcelo314/Happy#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.1.1",
+    "nodemon": "^2.0.5"
+  }
 }
